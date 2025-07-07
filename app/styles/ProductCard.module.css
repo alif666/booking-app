@@ -1,0 +1,43 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .product-card__image {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  .product-card__info {
+    margin-top: 0.5rem;
+  }
+  
+  .product-card__name {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .product-card__price {
+    color: #4caf50;
+    font-weight: 500;
+  }
+  
+  .product-list__heading{
+    text-align: center;
+  }
+
+  .product-list__grid {
+    display: flex;
+    flex-direction: row;
+    max-width: 45%;
+  }
+
+  .product-form__grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+  }
