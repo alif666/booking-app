@@ -1,9 +1,12 @@
+"use server";
 import ProductForm from "../components/ProductForm";
 import ProductList from "../components/ProductList";
 import { CabinProvider } from "../providers/CabinContext";
 
 
-function Page(){
+
+
+function CabinPage() {
     return (
         <CabinProvider>
         <div>
@@ -14,5 +17,4 @@ function Page(){
     );
 }
 
-
-export default Page;
+export default CabinPage;

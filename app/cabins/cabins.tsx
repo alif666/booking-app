@@ -1,6 +1,6 @@
-import ProductForm from "./components/ProductForm";
-import ProductList from "./components/ProductList";
-import { CabinProvider } from "./providers/CabinContext";
+import ProductForm from "../components/ProductForm";
+import ProductList from "../components/ProductList";
+import { CabinProvider } from "../providers/CabinContext";
 
 
 function Cabins(){
